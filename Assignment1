@@ -1,0 +1,11 @@
+n=input().split()
+a=[]
+for i in n:
+    a.append(int(i))
+res=[sorted(a).index(x)+1 for x in a] 
+print(res)
+
+
+
+98 97 96 87 99
+[4, 3, 2, 1, 5]
